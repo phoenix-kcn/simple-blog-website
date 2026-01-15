@@ -30,5 +30,5 @@ class PostCreateView(CreateView):
     
 class PostUpdateView(UpdateView):
     model = Post
-    template_name = 'post_edit.html'
+    template_name = 'post_update.html'
     fields = ['title', 'body']
